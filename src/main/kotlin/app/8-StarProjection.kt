@@ -22,4 +22,17 @@ fun main() {
     displayLength(arrayInt);
     displayLength(arrayString);
     displayLength(arrayCampur);
+
+
+    // Coba
+    for (i in 0..arrayInt.size - 1) {
+        println(arrayInt[i]);
+        if (arrayInt[i] % 2 == 0) {
+            println("Genap")
+        }
+    }
+
+    for (element in arrayCampur) {
+        println(element)
+    }
 }
