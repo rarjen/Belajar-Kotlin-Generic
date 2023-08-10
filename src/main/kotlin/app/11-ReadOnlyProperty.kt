@@ -30,4 +30,11 @@ fun main() {
     val nameWithLog = NameWithLog("Kevin Abiel");
     println(nameWithLog.name)
     println(nameWithLog.name)
+    /*
+    output:
+    Access property name with value Kevin Abiel
+    KEVIN ABIEL1
+    Access property name with value Kevin Abiel
+    KEVIN ABIEL2
+     */
 }
